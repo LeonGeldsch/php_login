@@ -1,0 +1,88 @@
+h1 {
+  font-size: 30px;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.register {
+  margin: 0 50px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.form-group {
+   display: flex;
+   flex: 0 0 auto;
+   flex-flow: row wrap;
+   align-items: center;
+   margin-bottom: 1rem;
+ }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 10px;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+ .form-control:focus {
+   color: #495057;
+   background-color: #fff;
+   border-color: #80bdff;
+   outline: 0;
+   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+ }
+
+ .button {
+   color: #fff;
+   background-color: #007bff;
+   border-color: #007bff;
+   cursor: pointer;
+   border: 1px solid transparent;
+   padding: 0.375rem 0.75rem;
+   font-size: 1rem;
+   line-height: 1.5;
+   border-radius: 0.25rem;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ }
+
+ .button:hover {
+   color: #212529;
+   background-color: #0069d9;
+   border-color: #0062cc;
+ }
+
+ .form-text {
+   visibility: hidden;
+ }
+
+ .form-text.is-invalid {
+   visibility: visible;
+   color: red;
+ }
+
+.form-check-label.is-invalid {
+  color: red;
+}
